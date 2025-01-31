@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Autobiografía</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Labrada:wght@300&display=swap" rel="stylesheet">
+    <!--Fuente Patua One-->
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+   <!-- Open Graph para compartir correctamente en redes -->
+   <meta property="og:title" content="¿Cómo la IA ayuda al descubrimiento de antibióticos y qué impacto tiene esto en la lucha contra la resistencia bacteriana?">
+   <meta property="og:description" content="Descubre cómo la inteligencia artificial está revolucionando la investigación de antibióticos y ayudando a combatir la resistencia bacteriana.">
+   <meta property="og:image" content="https://48865628.fs1.hubspotusercontent-na1.net/hub/48865628/hubfs/cepa.webp?width=800&height=450&name=cepa.jpeg">
+   <meta property="og:url" content="https://fox-news-48865628.hubspotpagebuilder.com/blog/c%C3%B3mo-la-ia-ayuda-al-descubrimiento-de-antibi%C3%B3ticos-y-qu%C3%A9-impacto-tiene-esto-en-la-lucha-contra-la-resistencia-bacteriana">
+   <meta property="og:type" content="article">
+</head>
+<body>
+    <div id="particles-js"></div> <!-- Fondo Animado -->
+    <audio id="background-music" loop>
+        <source src="audio-background.mp3" type="audio/mpeg">
+    </audio>
+    <button id="toggle-audio">
+        <i class="fas fa-volume-up"></i>
+    </button>
+    <!-- Botón de WhatsApp -->
+    <a href="https://wa.me/1234567890" target="_blank" id="whatsapp-button">
+        <i class="fab fa-whatsapp"></i>
+    </a>     
+    <header>
+        <h1 class="title">Biografía</h1>
+        <div class="profile">
+            <img src="foto_autor.jpeg" alt="Mi Foto" class="profile-img">
+            <h2 class="name" id="bio-text"></h2>
+            <p class="professions">Científico de datos | Ingeniero de ML | Ingeniero de datos<br>Desarrollador web Full-Stack | Periodista Científico | Escritor</p>
+
+            <!-- Redes Sociales -->
+            <div class="social-links">
+                <a href="https://linkedin.com" target="_blank" class="social-icon linkedin"><i class="fab fa-linkedin"></i></a>
+                <a href="https://facebook.com" target="_blank" class="social-icon facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://x.com" target="_blank" class="social-icon x"><i class="fab fa-x-twitter"></i></a>
+                <a href="https://medium.com" target="_blank" class="social-icon medium"><i class="fab fa-medium"></i></a>
+                <!--Github-->
+                <a href="https://github.com" target="_blank" class="social-icon github"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section id="about">
+            <h2>Sobre Mí</h2>
+            <p>Soy un entusiasta de la neurociencia computacional, la informática biomédica y la radiología. Me gusta el diseño UI/UX de aplicaciones y sitios web. Busco explorar la intersección entre la tecnología y la medicina. Mi deseo es contribuir a la sociedad.</p>
+
+            <!--Practico la ética de trabajo protestante (puritano) y el espiritu del capitalismo. Creo en el valor de la educación, el trabajo y el desarrollo. Soy centrista, y liberal tanto en lo político como lo económico.-->
+        </section>
+        
+        <section id="projects">
+            <h2>Proyectos</h2>
+            <div class="project-card">
+                <h3>Sistema de detección de tumores cerebrales</h3>
+                <p>Desarrollo de un sistema de detección de tumores cerebrales mediante el uso de redes neuronales convolucionales.</p>
+                <p><strong>Tecnologías:</strong> Python, TensorFlow, Keras, OpenCV, Flask, HTML, CSS, JavaScript</p>
+                <p><strong>Herramientas:</strong> Google Colab, Jupyter Notebook, PyCharm, Visual Studio Code, Cursor</p>
+            </div>
+            <div class="project-card">
+                <h3>Artículo periodístico sobre el aprendizaje automático</h3>
+                <p>Artículo periodístico sobre el aprendizaje automático y su impacto en la medicina y la salud.</p>
+                <p><strong>Herramientas:</strong> Google Docs, HubSpot CMS, Microsoft Word, LaTeX, Markdown</p>
+                <p><strong>Fuentes:</strong> Artículos científicos, libros, revistas, periódicos, sitios web</p>
+            </div>
+        </section>
+
+        <section id="podcast">
+            <h2>Escucha mi Podcast</h2>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/5dbvpKwtqz3X3hcX1BSEzf/video?utm_source=generator" width="100%" height="351" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </section>
+
+        <section id="article">
+            <h2>Artículo Destacado</h2>
+            <div class="article-container">
+                <div class="iframely-embed">
+                    <div class="iframely-responsive">
+                        <a href="https://fox-news-48865628.hubspotpagebuilder.com/blog/cómo-el-aprendizaje-automático-está-acelerando-los-descubrimientos-y-desarrollos-en-la-investigación-científica" 
+                           data-iframely-url="//iframely.net/6x4jdmj"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p id="footer-text"></p>
+    </footer>
+    <script async src="//iframely.net/embed.js"></script>
+    <script>
+             const messages = [
+    "🌟 Desarrollado con pasión por el diseño UX/UI.",
+    "🚀 Desarrollado con 💙 por David Rangel.",
+    "💡 Cada detalle cuenta en la experiencia del usuario."
+];
+
+let index5 = 0;
+function changeFooterText() {
+    document.getElementById("footer-text").textContent = messages[index5];
+    index5 = (index5 + 1) % messages.length;
+}
+
+setInterval(changeFooterText, 4000);
+changeFooterText();
+
+    </script>
+</body>
+</html>

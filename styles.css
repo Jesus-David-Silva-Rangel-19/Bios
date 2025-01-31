@@ -1,0 +1,266 @@
+/* Estilos generales */
+body {
+    font-family: 'Labrada', serif;
+    margin: 0;
+    padding: 0;
+    background: #121212;
+    color: #e0e0e0;
+    text-align: center;
+}
+
+@keyframes neon-glow {
+    0% { text-shadow: 0 0 5px #00ffc8, 0 0 10px #00ffc8; }
+    50% { text-shadow: 0 0 10px #00ffc8, 0 0 20px #00ffc8; }
+    100% { text-shadow: 0 0 5px #00ffc8, 0 0 10px #00ffc8; }
+}
+
+.title {
+    animation: neon-glow 1.5s infinite alternate;
+}
+
+/* Título principal */
+.title {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 2.5rem;
+    color: #00ffc8;
+    text-shadow: 0 0 8px #00ffc8;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+/* Estilos del perfil */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Imagen de perfil interactiva */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #00ffc8;
+    box-shadow: 0 0 12px rgba(0, 255, 200, 0.8);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 255, 200, 1);
+}
+
+/* Nombre */
+.name {
+    font-family: 'Patua One', cursive;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    color: #00ffc8;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+/* Profesiones */
+.professions {
+    font-size: 1rem;
+    font-weight: 300;
+    opacity: 0.8;
+    margin-top: -5px;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    max-width: 90%;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 10px rgba(0, 255, 200, 0.3);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 25px;
+}
+
+section:hover {
+    transform: scale(1.03);
+}
+
+/* Proyectos */
+.project-card {
+    background: rgba(0, 255, 200, 0.1);
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 200, 0.5);
+    margin-bottom: 25px;
+}
+
+.project-card p {
+    font-style: italic;
+}
+
+.project-card h3 {
+    color: #00ffc8;
+    text-transform: uppercase;
+    font-family: 'Alegreya';
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    section {
+        max-width: 95%;
+    }
+
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .professions {
+        font-size: 0.9rem;
+    }
+}
+
+/* Fondo animado */
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #121212;
+    z-index: -1;
+}
+
+/* Redes sociales con efecto neón */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icon {
+    font-size: 1.8rem;
+    color: #00ffc8;
+    transition: transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    text-shadow: 0 0 10px rgba(0, 255, 200, 0.8);
+}
+
+/* Colores personalizados para cada red */
+.linkedin:hover { color: #0077b5; } /* Azul LinkedIn */
+.facebook:hover { color: #1877f2; } /* Azul Facebook */
+.x:hover { color: #ffffff; } /* Blanco para X */
+.medium:hover { color: #00ab6c; } /* Verde Medium */
+
+/* Podcast */
+#podcast {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 90%;
+}
+
+/* Estilos del artículo */
+.article-container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 90%;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 200, 0.5);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.article-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 200, 1);
+}
+
+/* Iframely embed */
+.iframely-embed {
+    max-width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.iframely-responsive {
+    width: 100%;
+    height: 150px; /* Ajuste de tamaño */
+}
+
+/* Fuente Labrada  con Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Labrada&display=swap');
+
+a.thl, div.td, span.twt, span.tmt {
+    font-family: 'Cascadia Code' !important;
+}
+
+body > div > div > div.wt > div > div.th._f1p._fsn._fwb {
+    font-family: 'Cascadia Code';
+}
+
+body > div > div > div.wt > div > div.td {
+    font-family: 'Cascadia Code';
+}
+
+#toggle-audio {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #00ffc8;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    color: #121212;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 255, 200, 0.5);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+    /* Poner por delante de los demás elementos */
+    z-index: 1;
+}
+
+#toggle-audio:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 255, 200, 1);
+}
+
+#whatsapp-button {
+    position: fixed;
+    bottom: 90px; /* Justo encima del botón de sonido */
+    right: 20px;
+    background: #25D366; /* Verde WhatsApp */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(37, 211, 102, 0.5);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+    
+    /* Poner por delante de los demás elementos */
+    z-index: 1;
+}
+
+#whatsapp-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(37, 211, 102, 1);
+}
