@@ -5,9 +5,9 @@
 **Bios** es un proyecto de escritura informativa que combina **biografía personal** con elementos de **tecnología y futurismo**. 
 
 ## 📌 **Características**  
-✅ **Narrativa híbrida**: mezcla de autobiografía, especulación científica y filosofía transhumanista 🚀  
+✅ **Narrativa híbrida**: mezcla de autobiografía, científica y profesional 🚀  
 ✅ **Temáticas**: IA avanzada 🤖, realidades simuladas 🧠, memoria digitalizada 💾  
-✅ **Inspiración**: Neurociencia, ciberpunk y prospectiva tecnológica 🌐  
+✅ **Inspiración**: Neurociencia y prospectiva tecnológica 🌐  
 ✅ **Formato**: Relatos, ensayos y fragmentos interconectados 📝  
 
 ## 🚀 **Cómo Explorar el Proyecto**  
